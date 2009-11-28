@@ -11,6 +11,7 @@ begin
     gem.authors = ["Ben Johnson of Binary Logic"]
     gem.rubyforge_project = "authlogic"
     gem.add_dependency "activesupport"
+    gem.add_dependency "bcrypt-ruby"
   end
   Jeweler::RubyforgeTasks.new
 rescue LoadError
